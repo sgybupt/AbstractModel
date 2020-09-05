@@ -1,19 +1,17 @@
 import setuptools
 
-import setuptools
-
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="AbstractModel",
-    version="0.0.1",
+    name="abstractModel",
+    version="0.0.3",
     author="Guoyao Su",
     author_email="sgybupt@foxmail.com",
     description="An abstract model basic class",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/sgybupt/AbstractModel",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
